@@ -1,0 +1,52 @@
+
+nav {
+    height: 70px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.fruit-logo {
+    height: 60px;  
+    width: auto;
+    margin-right: 30px; 
+}
+
+.nav-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.card-image {
+    height: 200px;
+    overflow: hidden;
+}
+.card-image img {
+    height: 100%;
+    object-fit: cover;
+   
+}
+/*price tag/*/
+
+.price-tag {
+    font-size: 1.2em;
+    color: #2e7d32;
+    font-weight: bold;
+}
+.fruit-link {
+    color: #00695c !important;
+    font-weight: 500;
+}
+
+
