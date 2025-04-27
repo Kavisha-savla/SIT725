@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Fruit Market</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+
+</head>
+<body class="grey lighten-4">
+
+    <nav class="green darken-3">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo "><img class="fruit-logo" src="./fruit.jpeg"/>Fresh Fruits</a>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row" id="fruitCards">
+       
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./apples.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Fresh Apples</span>
+                        <p class="price-tag">$2.99/kg</p>
+                        <p>Crispy and sweet organic apples from local farms</p>
+                        <a href="https://en.wikipedia.org/wiki/Apple" target="_blank" class="fruit-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./mango.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Juicy Mangoes</span>
+                        <p class="price-tag">$4.99/kg</p>
+                        <p>Sweet and tropical mangoes imported directly from India</p>
+                        <a href="https://en.wikipedia.org/wiki/Mango" target="_blank" class="fruit-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+       
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./strawberry.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">Organic Strawberries</span>
+                        <p class="price-tag">$12.99/kg</p>
+                        <p>Fresh-picked strawberries from local organic farms</p>
+                        <a href="https://en.wikipedia.org/wiki/Strawberry" target="_blank" class="fruit-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+            <a href="#!" class="waves-effect waves-green btn green" id="submitFruit">Add Fruit</a>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+   
+</body>
+</html>
